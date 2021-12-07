@@ -1,42 +1,26 @@
-/* основной цвет текста черный 212121# */
-/* вторичный цвет текста серый #757575 */
-/* акцент синий #2196F3 */
-/* Основной цвет фона #FFFFFF*/
-/* Вторичный цвет фона #F5F4FA */
-/* фон баннера #2F303A */
+.body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
 
 .list {
     list-style: none;
 }
 
-/* Шапка */
- .site-nav .link {
-     color: #212121;
- }
+/* основной цвет текста  #212121 */ 
+/* вторичный цвет текста #757575 */
 
-.site-nav .link:hover,  
-.site-nav .link:focus{
-    color:#2196F3  ;
+
+/* навигация по сайту */
+
+.site-nav .link {
+    color: #212121;
 }
 
-.section{
+.site-nav .link:hover {
+    color: #2196F3;
+}
+
+.section-title {
     color:#212121 ;
-}
-
-.section-title{
-    color:#757575 ;
-}
-
-.header-text{
-    color: #FFFFFF;
-}
-
-.banner-background{
-    background-color: #2F303A;
-}
-.link-collor{
-    color: rgba(255, 255, 255, 0.6);
-}
-.header-text{
-    background-color: #2F303A;
 }

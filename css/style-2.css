@@ -117,7 +117,7 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     
     color:var(--header-text-color);
-
+}
 
 
 
@@ -201,7 +201,7 @@ color: #757575;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: white;
 }
@@ -211,7 +211,7 @@ color: #757575;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 
     letter-spacing: 0.03em;
     
@@ -221,7 +221,7 @@ color: #757575;
 
 .gps-nav {
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 

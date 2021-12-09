@@ -25,10 +25,16 @@ body {
     color: var(--additional-text-color);
 }
 
+.button-nav:hover{
+    background-color: var(--additional-text-color);
+    color: white;
+}
+
 
 
 .header-link {
-    
+    font-style: normal;
+font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -37,7 +43,8 @@ body {
 
 
 .header-info a {
-    
+    font-style: normal;
+font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -74,7 +81,7 @@ body {
     background-color: var(--main-bkg-color);
 }
 
-.content-text {
+.hiro-text {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -86,12 +93,27 @@ body {
     
 }
 .button {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background-color: var(--additional-text-color);
-    color: var(--heder-bkg-color)
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--additional-text-color);
+color: #FFFFFF;
+
+}
+
+.button-nav {
+wwidth: 145px;
+height: 38px;
+left: 712px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px
+
 }
 
 
@@ -99,7 +121,6 @@ body {
 
 
 .section-title{
-    font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -137,11 +158,11 @@ color: #212121;
 
 
 .neame-title{
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 color: var(--header-text-color);
 
 }
@@ -169,13 +190,39 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.footer-logo{
-    font-family: raleway;
 
+.galerey-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--header-text-color);
+    
+}
+
+
+.footer-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.footer-list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: white;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
 }
 
 .gps-nav {

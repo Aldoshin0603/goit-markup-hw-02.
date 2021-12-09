@@ -93,6 +93,7 @@ font-weight: 500;
     
 }
 .button {
+font-family:Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -107,14 +108,15 @@ color: #FFFFFF;
 }
 
 .button-nav {
-wwidth: 145px;
-height: 38px;
-left: 712px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px
-
-}
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color:var(--header-text-color);
 
 
 
@@ -158,11 +160,10 @@ color: #212121;
 
 
 .neame-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 color: var(--header-text-color);
 
 }
@@ -175,13 +176,6 @@ letter-spacing: 0.03em;
 color: var(--second-text-color);
 }
 
-
-.neame-title{
-    font-size: 18px;
-line-height: 2px;
-letter-spacing: 0.06em;
-color: #212121;
-}
 
 .content-text{
     font-size: 16px;

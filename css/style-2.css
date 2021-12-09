@@ -6,9 +6,10 @@
     --heder-bkg-color:#ffffff;
 }
 
-.body {
-    front-family: Roboto, sans-serif;
+body {
+    font-family: Roboto, sans-serif;
 }
+
 
 
 .list {
@@ -21,7 +22,7 @@
 }
 
 .header-link:hover{
-    color: #2196F3;
+    color: var(--additional-text-color);
 }
 
 
@@ -29,23 +30,37 @@
 .header-link {
     
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color:  #212121;;
+    color:var(--header-text-color);
 }
 
 
 .header-info a {
     
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-text-color);
     
 }
 
+.header-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color);
+    
+}
+.color-logo{
+    color: var(--additional-text-color);
+}
+
 .footer-link{
-    background-color: #2F303A;
+    background-color: var(--main-bkg-color)
 }
 
 
@@ -60,23 +75,33 @@
 }
 
 .content-text {
+    font-style: normal;
     font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-color: #ffffff;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
 }
-
 .button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
     background-color: var(--additional-text-color);
     color: var(--heder-bkg-color)
-
 }
+
+
+
 
 
 .section-title{
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--header-text-color)
@@ -85,7 +110,7 @@ color: #ffffff;
 
 .section-text{
     font-size: 14px;
-line-height: 24px;
+line-height: 1.41;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -93,7 +118,7 @@ color: #757575;
 
 .main-comand{
     font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -114,7 +139,7 @@ color: #212121;
 .neame-title{
     font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-text-color);
@@ -123,7 +148,7 @@ color: var(--header-text-color);
 
 .neame-text{
     font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-text-color);
@@ -132,22 +157,31 @@ color: var(--second-text-color);
 
 .neame-title{
     font-size: 18px;
-line-height: 36px;
+line-height: 2px;
 letter-spacing: 0.06em;
 color: #212121;
 }
 
 .content-text{
     font-size: 16px;
-line-height: 30px;
+line-height: 1.66;
 letter-spacing: 0.03em;
 color: #757575;
 
 }
 .footer-logo{
+    font-family: raleway;
+
     font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: white;
+}
+
+.gps-nav {
+font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: #FFFFFF;
 
 }
